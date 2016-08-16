@@ -10,10 +10,6 @@
 
 ## Download ##
 
-[demo apk下载][downapk]
-
-[下载最新版本aar][lastaar]
-
 Download or grab via Maven:
 
 	<dependency>
