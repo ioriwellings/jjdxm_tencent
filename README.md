@@ -1,7 +1,7 @@
 # [jjdxm_tencent][project] #
 
 ## Introduction ##
-社会化第三方登录、分享实现流程
+当前项目是将社会化第三方登录、分享中实现qq和腾讯微博分享、qq授权登录等功能，使用到腾讯提供的SDK进行一个在线打包。为了方便在各个项目中快速的接入微博的sdk，特定将腾讯提供的SDK文件打包到jCenter上面，直接使用compile命令进行依赖即可。
 
 ## Screenshots ##
 
@@ -26,6 +26,9 @@ or Gradle:
 
 	compile 'tencent:jjdxm-tencent:x.x.x'
 
+历史版本
+
+	compile 'tencent:jjdxm-tencent:1.0.0' 对应的架包open_sdk_r5756_lite.jar
 
 jjdxm-tencent requires at minimum Java 15 or Android 4.0.
 
