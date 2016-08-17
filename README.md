@@ -38,9 +38,9 @@ or Gradle:
 
 	compile 'tencent:jjdxm-tencent:1.0.0' 对应的架包open_sdk_r5756_lite.jar
 
-[架包的打包引用以及冲突解决][jaraar]
+jjdxm-tencent requires at minimum Java 15 or Android 4.0.
 
-jjdxm-periscope requires at minimum Java 15 or Android 4.0.
+[架包的打包引用以及冲突解决][jaraar]
 
 ## Proguard ##
 
