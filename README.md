@@ -15,6 +15,10 @@
 ## Introduction ##
 当前项目是将社会化第三方登录、分享中实现qq和腾讯微博分享、qq授权登录等功能，使用到腾讯提供的SDK进行一个在线打包。为了方便在各个项目中快速的接入腾讯的sdk，特定将腾讯提供的SDK文件打包到jCenter上面，直接使用compile命令进行依赖即可。
 
+qq和腾讯微博分享、授权登录等功能官方地址： [http://wiki.open.qq.com/wiki/QQ%E7%94%A8%E6%88%B7%E8%83%BD%E5%8A%9B](http://wiki.open.qq.com/wiki/QQ%E7%94%A8%E6%88%B7%E8%83%BD%E5%8A%9B)
+
+[http://wiki.open.qq.com/wiki/mobile/SDK%E4%B8%8B%E8%BD%BD](http://wiki.open.qq.com/wiki/mobile/SDK%E4%B8%8B%E8%BD%BD)
+
 ## Screenshots ##
 
 <img src="https://raw.githubusercontent.com/jjdxmashl/jjdxm_tencent/master/screenshots/icon01.png" width="300"> 
@@ -25,20 +29,21 @@
 Download or grab via Maven:
 
 	<dependency>
-	  <groupId>tencent</groupId>
+	  <groupId>com.dou361.tencent</groupId>
 	  <artifactId>jjdxm-tencent</artifactId>
 	  <version>x.x.x</version>
 	</dependency>
 
 or Gradle:
 
-	compile 'tencent:jjdxm-tencent:x.x.x'
+	compile 'com.dou361.tencent:jjdxm-tencent:x.x.x'
 
 历史版本
 
-	compile 'tencent:jjdxm-tencent:1.0.0' 对应的架包open_sdk_r5756_lite.jar
+	compile 'com.dou361.tencent:jjdxm-tencent:1.0.1' 对应的架包open_sdk_r5756_lite.jar
+	compile 'com.dou361.tencent:jjdxm-tencent:1.0.0' 对应的架包open_sdk_r5756_lite.jar
 
-jjdxm-tencent requires at minimum Java 15 or Android 4.0.
+jjdxm-tencent requires at minimum Java 9 or Android 2.3.
 
 [架包的打包引用以及冲突解决][jaraar]
 

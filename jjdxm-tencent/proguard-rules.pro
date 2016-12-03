@@ -15,3 +15,5 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+##腾讯
+-keep class com.tencent.** {*;}
